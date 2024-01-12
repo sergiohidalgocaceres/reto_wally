@@ -27,8 +27,8 @@ _El puerto por defecto es el 4000_
 
 - Cargar en Postman el archivo postman/Wally.postman_collection.json
 - Hay tres carpetas: local, docker y aws. Todas tienen los endpoints para los 3 ambientes.
-- En cualquiera de las dos opciones, hace la llamada del login para obtener el token
-- Usar el token en la sección de Authorization. Luego elegir el tipo "Bearer Token" y copiar el token del paso anterior
+- En cualquiera de los ambientes, se debe hacer primero la llamada del login para obtener el token
+- Usar el token en la sección de Authorization de la carpeta que contiene a las carpetas local, docker y aws. Luego elegir el tipo "Bearer Token" y copiar el token del paso anterior
 - Ahora sí se podrán hacer el resto de llamadas
 - El token tiene un tiempo de vida de 1 día
 
