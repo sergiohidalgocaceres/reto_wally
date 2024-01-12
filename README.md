@@ -26,7 +26,7 @@ _El puerto por defecto es el 4000_
 ### Ejecutar desde Postman (local, contenedor, AWS)
 
 - Cargar en Postman el archivo postman/Wally.postman_collection.json
-- Hay dos carpetas: local, docker y aws
+- Hay tres carpetas: local, docker y aws. Todas tienen los endpoints para los 3 ambientes.
 - En cualquiera de las dos opciones, hace la llamada del login para obtener el token
 - Usar el token en la sección de Authorization. Luego elegir el tipo "Bearer Token" y copiar el token del paso anterior
 - Ahora sí se podrán hacer el resto de llamadas
