@@ -40,7 +40,7 @@ _El puerto por defecto es el 4000_
 
 - Ambas acciones se hacen a través de CodePipeline
 - El despliegue se realiza sobre una instancia de Elastic Beanstalk en AWS
-- En la raíz del proyecto se encuentra el script builspec.yml usado por CodeBuild y el json Dockerrun.aws.json usando por Beanstalk
+- En la raíz del proyecto se encuentra el script builspec.yml usado por CodeBuild y el json Dockerrun.aws.json usado por Beanstalk
 
 ### Swagger
 
