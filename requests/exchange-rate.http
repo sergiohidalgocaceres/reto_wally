@@ -1,0 +1,39 @@
+### Exchange Rate API
+GET http://localhost/v1/exchange-rate/calculate?amount=10000&from=EUR&to=PEN&date=2024/01/12
+
+### List
+GET http://localhost/v1/exchange-rate
+
+### Create
+POST http://localhost/v1/exchange-rate
+content-type: application/json
+
+{
+    "exchangeRate": {
+      "USD": 1,
+      "EUR": 0.85,
+      "GBP": 0.78,
+      "ARS": 815.47,
+      "BRL": 4.85,
+      "PEN": 3.7
+    },
+    "date": "2024/01/14"
+}
+
+### Delete
+DELETE http://localhost/v1/exchange-rate/e7d272fa-001d-475d-aeac-ea0c27da890c
+
+### Update
+PUT http://localhost/v1/exchange-rate/e7d272fa-001d-475d-aeac-ea0c27da890c
+content-type: application/json
+
+{
+    "exchangeRate": {
+      "USD": 1,
+      "EUR": 0.99,
+      "GBP": 0.78,
+      "ARS": 815.47,
+      "BRL": 4.85,
+      "PEN": 3.85
+    }
+}
